@@ -1,0 +1,56 @@
+.header {
+    min-height: 894px;
+    padding: 50px 0 249px 0;
+    background: url("../img/main_bg.png") center (center/cover) no-repeat;
+&__title {
+    margin: 200px auto 0 0;
+    width: 612px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    }
+    &__subtitle {
+        margin-top: 20px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #FFFFFF;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info {
+        display: block;
+        margin-top: 41px;
+        float: left;
+        &_text {
+            margin: 54px 15px;
+            float: left;
+            width: 115px;
+            font-family: Raleway;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #CBB189;
+        }
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        &_search {
+            margin-top: 58px;
+            margin-right: 20px;
+        }
+        &_menu {
+            margin-top: 61px;
+        }
+    }
+}
